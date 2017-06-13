@@ -10,12 +10,27 @@ namespace HelloWorld
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine(CreateMessage());
+            Console.WriteLine("Hello " + CreateMessage() + " World" );
         }
 
         public static string CreateMessage()
         {
-            return "Hello World Ramesh Rangaiah."; 
+            string name;
+            Console.WriteLine("Hello World!\n");
+            Console.WriteLine("Enter your name");
+            name = Console.ReadLine();
+            //return "Hello World Ramesh Rangaiah."; 
+            return name;
+        }
+
+        public static string CreateTestMessage()
+        {
+            string name;
+            Console.WriteLine("Hello World!\n");
+            Console.WriteLine("Enter your name");
+            name = "Ramesh Rangaiah";
+            //return "Hello World ."; 
+            return name;
         }
     }
 }
