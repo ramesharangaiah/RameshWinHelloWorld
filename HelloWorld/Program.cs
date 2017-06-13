@@ -19,6 +19,7 @@ namespace HelloWorld
             Console.WriteLine("Hello World!\n");
             Console.WriteLine("Enter your name");
             name = Console.ReadLine();
+            Console.WriteLine("Thanks for Entering your name");
             //return "Hello World Ramesh Rangaiah."; 
             return name;
         }
@@ -28,7 +29,7 @@ namespace HelloWorld
             string name;
             Console.WriteLine("Hello World!\n");
             Console.WriteLine("Enter your name");
-            name = "Ramesh Rangaiah";
+            name = "Ramesh Rangaiah1";
             //return "Hello World ."; 
             return name;
         }
